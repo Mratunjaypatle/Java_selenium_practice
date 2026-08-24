@@ -39,8 +39,8 @@ public class ConstructorTask {
 		System.out.println("Enter the first name : ");
 		String firstname = sc.next();
 		System.out.println("Enter the last name : ");
-		String lastname = sc.next();
-		System.out.println("Enter the gender name : ");
+		String lastname = sc.next(); 
+		System.out.println("Enter the gender (M / F) : ");
 		char gender = sc.next().charAt(0);
 		System.out.println("Enter the address name : ");
 		String address = sc.next();

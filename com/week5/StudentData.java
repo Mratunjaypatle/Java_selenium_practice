@@ -11,6 +11,14 @@ public class StudentData {
 		System.out.println("Student id -> " + id);
 		System.out.println("Student name -> " + name);
 	}
+	public StudentData()
+	{
+		System.out.println("default constructor from StudentData class");
+	}
+	public void display()
+	{
+		System.out.println("display method is calling from studentData class..");
+	}
 
 	
 	public static void main(String[] args) {

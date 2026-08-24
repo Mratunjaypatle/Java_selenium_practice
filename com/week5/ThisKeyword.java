@@ -11,16 +11,6 @@ public class ThisKeyword {
     // The constructor is called automatically when an object is created.
     public ThisKeyword(int id, String name) {
 
-        /*
-         * Here we have:
-         *
-         * this.id   -> instance variable
-         * id        -> local/parameter variable
-         *
-         * this.id = id;
-         * The value of the parameter 'id' is assigned
-         * to the instance variable 'id'.
-         */
         this.id = id;
 
         /*
@@ -54,7 +44,15 @@ public class ThisKeyword {
         System.out.println("Employee ID   : " + id);
         System.out.println("Employee Name : " + name);
     }
-
+      public void message1()
+      {
+    	  System.out.println("message 1");
+    	  this.message2();
+      }
+      public void message2()
+      {
+    	  System.out.println("message 2");
+      }
     // Main method - program execution starts from here
     public static void main(String[] args) {
 
@@ -69,6 +67,7 @@ public class ThisKeyword {
         /*
          * Calling the show() method using the object.
          */
-        obj.show();
+//        obj.show();
+        obj.message1();
     }
 }
