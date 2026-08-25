@@ -1,4 +1,4 @@
-package com.week4;
+package com.week4.methodtypes;
 
 public class CompilertimeParameterPassing {
 

@@ -1,4 +1,4 @@
-package com.week5;
+package com.week5.thiskeywordandconstructor;
 
 import java.util.Scanner;
 
