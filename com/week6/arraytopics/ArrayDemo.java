@@ -3,27 +3,29 @@ package com.week6.arraytopics;
 import java.util.Scanner;
 
 public class ArrayDemo {
+	int id = 1;
 
 	public static void CountMarks() {
 		int sum = 0;
 		Scanner sc = new Scanner(System.in);
 		int students[] = new int[4];
 		System.out.println("Enter the marks of students => ");
-		
+
 		for (int i = 0; i < students.length; i++) {
 			students[i] = sc.nextInt();
 		}
-		
+
 		for (int i = 0; i < students.length; i++) {
 			sum += students[i];
 		}
-		
+
 		float result = sum / students.length;
-		System.out.println("Result is "  + result + "%");
+		System.out.println("Result is " + result + "%");
 	}
 
 	public static void main(String[] args) {
 		int arr1[] = new int[4];
+
 		arr1[0] = 1;
 		arr1[1] = 2;
 		arr1[2] = 3;
@@ -39,7 +41,7 @@ public class ArrayDemo {
 		int sum[] = new int[4];
 
 		System.out.println("Length of all arrays is " + length);
-
+		// iteration using for loop
 		System.out.print("Elements of array1 are => ");
 		for (int i = 0; i < length; i++) {
 			System.out.print(arr1[i] + " ");
@@ -58,6 +60,8 @@ public class ArrayDemo {
 			System.out.print(sum[i] + " ");
 		}
 		System.out.println();
+		
+		
 
 		CountMarks();
 	}
