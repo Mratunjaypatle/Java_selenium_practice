@@ -1,8 +1,36 @@
 package com.week6.arraytopics;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ObjectArray {
+
+	public static int CountPositive() {
+		int a[] = { 12, 54, -67, -90, -54, 70  , 123};
+		int i = 0;
+		int count = 0;
+		while (i < a.length) {
+			if (a[i] > 0) {
+				count++;
+			}
+			i++;
+		}
+		return count;
+	}
+
+	public static List<Integer> ReturnPositive() {
+		int a[] = { 12, 54, -67, -90, -54, 70  ,123 , -87};
+		List<Integer> positiveNumber = new ArrayList<>();
+		int i = 0;
+		while (i < a.length) {
+			if (a[i] < 0) {
+				positiveNumber.add(a[i]);
+			}
+			i++;
+		}
+		return positiveNumber;
+	}
 
 	public static void ObjectDataInput(Scanner sc) {
 
@@ -27,7 +55,7 @@ public class ObjectArray {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		// using Object class we can put any kind of data in our array..
-
+		ObjectArray obj = new ObjectArray();
 		Object empdata[] = new Object[5];
 		empdata[0] = "Sanidhya";
 		empdata[1] = "Pune";
@@ -53,6 +81,8 @@ public class ObjectArray {
 
 		System.out.println();
 //		ObjectDataInput(sc);
+		System.out.println(CountPositive());
+		System.out.println(ReturnPositive());
 
 	}
 

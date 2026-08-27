@@ -2,6 +2,9 @@ package com.week6.arraytopics;
 
 import java.util.Scanner;
 
+
+
+
 public class ArrayDemo {
 	int id = 1;
 
