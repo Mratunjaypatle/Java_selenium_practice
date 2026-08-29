@@ -24,7 +24,7 @@ public class ObjectArray {
 		List<Integer> positiveNumber = new ArrayList<>();
 		int i = 0;
 		while (i < a.length) {
-			if (a[i] < 0) {
+			if (a[i] <  0) {
 				positiveNumber.add(a[i]);
 			}
 			i++;
