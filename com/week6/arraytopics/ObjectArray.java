@@ -60,7 +60,7 @@ public class ObjectArray {
 		empdata[0] = "Sanidhya";
 		empdata[1] = "Pune";
 		empdata[2] = 24;
-		empdata[3] = 'M';
+		empdata[3] = 'M'; //Character  
 		empdata[4] = 76.9;
 		System.out.println("The length of the array is " + empdata.length);
 		for (int i = 0; i < empdata.length; i++) {
