@@ -14,7 +14,7 @@ public class MobileTest {
 	 Nothing obj2 = new Nothing();
 	 obj2.calling("hyee dear , nice to talk with uhhh.....");
 	 obj2.voiceNote("call back uhh shortly..");
-	 obj2.message("Hello , glad to see uhh today..💗");
+	 obj2.message("Hello , glad to see uhh today..💗")
 	}
 
 }
